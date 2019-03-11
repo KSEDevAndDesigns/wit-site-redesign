@@ -1,0 +1,64 @@
+
+
+
+:root {
+    --raspberry: #e30375;
+    --darkgray: #353535;
+    --icegray: #f1f1f2;
+    --lavenderwhite: #fff2ff;
+}
+
+html {
+    background-color: var(--icegray);
+}
+
+
+/* =================== */
+/* ==  Home Page == */
+/* =================== */
+.image-banner {
+    /* border: solid black;  */
+    height: 40vw;
+}
+
+#header-banner {
+    
+    background-color: var(--raspberry);
+    /* height: 42vw; */
+    
+}
+
+.banner-content {
+    margin-left: 10vw;
+    /* border: solid blue;  */
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: column;
+    
+}
+
+button {
+    color: var(--raspberry);
+    font-size: 1.35rem;
+
+    position: relative;
+    bottom: 7vh;
+    margin-left: 7vw;
+    font-family: sans-serif;
+    width: 10rem;
+    height: 4rem;
+    
+    /*  cursor  */
+    cursor: pointer;
+    text-align: center;
+
+    /*  transition  */
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/* =================== */
+/* ==  Landing Page == */
+/* =================== */
