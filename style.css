@@ -16,14 +16,37 @@ html {
 /* =================== */
 /* ==  Home Page == */
 /* =================== */
+
+        /* HEADER */
+#hanburger-icon {
+    font-size: 3rem;
+    color: white;
+
+    /* positioning */
+    position: fixed;
+    right: 4vw;
+    top: 1vw;
+
+    /*  cursor  */
+    cursor: pointer;
+    text-align: center;
+
+    /*  transition  */
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .image-banner {
     /* border: solid black;  */
-    height: 40vw;
+    height: 35vw;
 }
 
 #header-banner {
     
     background-color: var(--raspberry);
+    padding-top: 7vw;
+    padding-bottom: 5vw;
     /* height: 42vw; */
     
 }
@@ -39,19 +62,19 @@ html {
     
 }
 
-button {
+.white-button {
     color: var(--raspberry);
-    font-size: 2.5vw;
+    font-size: 1.25vw;
     font-family: sans-serif;
 
     /* position */
     position: relative;
-    bottom: 42px;
+    bottom: 65px;
     margin-left: 7vw;
 
     /* size */
-    width: 14vw;
-    height: 6vw;
+    width: 8vw;
+    height: 3vw;
     
     /*  cursor  */
     cursor: pointer;
@@ -61,7 +84,74 @@ button {
     transition: background 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
+
+    /* shadow */
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
+
+
+/* =================== */
+/* ==  Home Page == */
+/* =================== */
+        
+        /* ABOUT */
+
+.banner {
+    /* border: solid green;  */
+    background-color: white;
+    padding: 8vw 4vw 10vw 15vw;;
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 20vw;
+}
+
+.image-lg {
+    min-width: 35vw;
+}
+
+.banner-right {
+    margin-left: 7vw;
+    padding-right: 18vw;
+}
+
+.pink-title-lg {
+    /* border: solid orange; */
+    color: var(--raspberry);
+    font-size: 10vw;
+
+    /* text-shadow */
+    text-shadow: 25px -20px 0px rgba(227,3,117, 0.05);
+    /* position */
+    margin-top: -4vw;
+}
+
+.pink-button {
+    margin-top: 4vw;
+    
+    color: white;
+    background-color: var(--raspberry);
+    font-size: 1.5vw;
+    font-family: sans-serif;
+
+     /* size */
+     width: 10vw;
+     height: 3vw;
+
+     /*  cursor  */
+    cursor: pointer;
+    text-align: center;
+
+    /*  transition  */
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    /* shadow */
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
 /* =================== */
 /* ==  Landing Page == */
 /* =================== */
