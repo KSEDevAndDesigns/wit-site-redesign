@@ -29,8 +29,8 @@ html {
 }
 
 .banner-content {
-    margin-left: 10vw;
     /* border: solid blue;  */
+    margin-left: 10vw;
     
     display: flex;
     justify-content: flex-start;
@@ -41,14 +41,17 @@ html {
 
 button {
     color: var(--raspberry);
-    font-size: 1.35rem;
-
-    position: relative;
-    bottom: 7vh;
-    margin-left: 7vw;
+    font-size: 2.5vw;
     font-family: sans-serif;
-    width: 10rem;
-    height: 4rem;
+
+    /* position */
+    position: relative;
+    bottom: 42px;
+    margin-left: 7vw;
+
+    /* size */
+    width: 14vw;
+    height: 6vw;
     
     /*  cursor  */
     cursor: pointer;
